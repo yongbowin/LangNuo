@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name="classify" namespace="/" extends="default">
+    
+		<action name="Leica" class="com.wyb.langnuo.official.InTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+        
+		<action name="Topcon" class="com.wyb.langnuo.official.InTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Pentax" class="com.wyb.langnuo.official.InTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Nikon" class="com.wyb.langnuo.official.InTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Sokkia" class="com.wyb.langnuo.official.InTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Trimble" class="com.wyb.langnuo.official.InTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="others" class="com.wyb.langnuo.official.InTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+
+		<action name="Tianyu" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Kolida" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="ZHD" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="FOIF" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="SOUTH" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Sanding" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="RUIDE" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Dadi" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Tjop" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Boif" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Geomax" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="Gowin" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="tuoluo" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+    
+		<action name="others" class="com.wyb.langnuo.official.OwnTotalStation">
+        	<result name="success" type="redirectAction">products</result>
+        </action>
+        
+        <!-- Add actions here -->
+    </package>
+</struts>

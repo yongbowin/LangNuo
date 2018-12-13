@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name="products_detail" namespace="/" extends="default">
+    	
+    	<!-- 进口全站仪的 详细信息 -->
+    	<action name="in_total_station_detail" class="com.wyb.langnuo.official.ProductsDetail">
+        	<result name="success">/jsp/official/products_detail.jsp</result>
+        </action>
+    
+    </package>
+</struts>
